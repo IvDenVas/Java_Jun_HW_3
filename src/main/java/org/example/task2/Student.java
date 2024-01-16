@@ -1,8 +1,6 @@
 package org.example.task2;
 
-import java.io.Serializable;
-
-public class Student implements Serializable {
+public class Student{
     public String name;
     public int age;
     transient double GPA;
